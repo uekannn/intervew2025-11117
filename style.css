@@ -58,7 +58,8 @@ body {
 .text-box {
   display: flex; 
   flex-direction: column;
-  padding: 30px;              
+  padding: 30px;
+  gap: 10px;       
 }
 
 .interview {
@@ -79,6 +80,7 @@ body {
   font-size: 25px;
   margin: 0 0 4px;
   font-family: "A-OTF A1 Gothic Std", sans-serif;
+  line-height: 1.5;
 }
 
 .line {
@@ -100,8 +102,9 @@ body {
 }
 
 h1{
-    font-size: 50px;
+    font-size: 80px;
     text-align: center;
+    color: #4c4c4c;
     padding:0;
     margin: 0;
    font-family: 'A1 Gothic StdN', sans-serif;
@@ -109,9 +112,11 @@ h1{
 }
 
 .heading{
-    font-size: 25px;
+    font-size: 45px;
+    color: #4c4c4c;
     text-align: center;
-    margin-top: -20px;
+    margin: -40px 0 -60px;
+    padding: 0;
 }
 
 .gif{
