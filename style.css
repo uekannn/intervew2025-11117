@@ -123,3 +123,17 @@ h1{
     margin: -300px 0 -100px;
 
 }
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size:16px;
+  color: #e8eaf0;
+  line-height: 1.9;
+  background-image: url(footer.png);
+  background-size: cover;
+  background-position: center;
+  height: 80px;
+  margin: 0;
+}
